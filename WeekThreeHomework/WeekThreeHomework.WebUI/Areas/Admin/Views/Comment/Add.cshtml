@@ -1,0 +1,17 @@
+@model CommentAddViewModel
+
+<h2>Add Comment</h2>
+<hr />
+<form asp-controller="Comment" asp-action="Add" method="post">
+    <div class="form-group">
+        <label asp-for="Text"></label>
+        <input asp-for="Text" class="form-control" />
+        <span asp-validation-for="Text"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ArticleId"></label>
+        <input asp-for="ArticleId" class="form-control" />
+        <span asp-validation-for="ArticleId"></span>
+    </div>
+    <input type="submit" value="Add" class="btn btn-sm btn-success" />
+</form>

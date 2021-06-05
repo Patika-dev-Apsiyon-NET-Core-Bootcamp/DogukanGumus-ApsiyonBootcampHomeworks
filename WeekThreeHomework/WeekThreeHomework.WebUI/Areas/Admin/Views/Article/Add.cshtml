@@ -1,0 +1,27 @@
+@model ArticleAddViewModel
+
+<h2>Add Article</h2>
+<hr />
+<form asp-controller="Article" asp-action="Add" method="post">
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Content"></label>
+        <input asp-for="Content" class="form-control" />
+        <span asp-validation-for="Content"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Author"></label>
+        <input asp-for="Author" class="form-control" />
+        <span asp-validation-for="Author"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CategoryId"></label>
+        <input asp-for="CategoryId" class="form-control" />
+        <span asp-validation-for="CategoryId"></span>
+    </div>
+    <input type="submit" value="Add" class="btn btn-sm btn-success" />
+</form>

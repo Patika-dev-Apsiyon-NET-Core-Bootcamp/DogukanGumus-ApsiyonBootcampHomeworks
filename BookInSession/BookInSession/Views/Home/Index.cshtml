@@ -1,0 +1,52 @@
+@model BookInSession.ViewModels.BookListViewModel
+
+    <table class="table table-hover table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Author</th>
+                <th scope="col">Price</th>
+                <th scope="col">CategoryId</th>
+                <th scope="col"></th>
+                <th scope="col">
+                    <a class="btn btn-success btn-sm" asp-controller="Home" asp-action="Add" >
+                        Add A Book
+                    </a>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model.Books)
+            {
+                <tr>
+                    <td>@book.Id</td>
+                    <td>@book.Name</td>
+                    <td>@book.Author</td>
+                    <td>@book.Price</td>
+                    <td>@book.CategoryId</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm" asp-controller="Home" asp-action="Update" asp-route-id="@book.Id">
+                            Update Book
+                        </a>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger btn-sm" asp-controller="Home" asp-action="Delete" asp-route-id="@book.Id">
+                            Delete Book
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+<div class="mt-2">
+    <ul class="pagination">
+        @for (int i = 1; i <= Model.PageCount; i++)
+        {
+           <li class="page-item @(i == Model.CurrentPage ? "active":"")">
+               <a class="page-link" href="/home/index?page=@i&categoryId=@Model.CurrentCategory">@i</a>
+           </li>
+        }
+    </ul>
+</div>

@@ -1,0 +1,49 @@
+@model CommentAdminListViewModel
+
+<table class="table table-hover table-striped">
+    <thead class="thead-dark">
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Text</th>
+        <th scope="col">Article Id</th>
+        <th scope="col"></th>
+        <th scope="col">
+            <a class="btn btn-success btn-sm" asp-area="Admin" asp-controller="Comment" asp-action="Add" >
+                Add A Comments
+            </a>
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var comment in Model.Comments)
+    {
+        <tr>
+            <td>@comment.Id</td>
+            <td>@comment.Text</td>
+            <td>@comment.ArticleId</td>
+            <td>
+                <a class="btn btn-primary btn-sm" asp-area="Admin" asp-controller="Comment" asp-action="Update" asp-route-id="@comment.Id">
+                    Update Comment
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-danger btn-sm" asp-area="Admin" asp-controller="Comment" asp-action="Delete" asp-route-id="@comment.Id">
+                    Delete Comment
+                </a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+
+<div class="mt-2">
+    <ul class="pagination">
+        @for (int i = 1; i <= Model.PageCount; i++)
+        {
+            <li class="page-item @(i == Model.CurrentPage ? "active":"")">
+                <a class="page-link" href="/admin/comment/index?page=@i">@i</a>
+            </li>
+        }
+    </ul>
+</div>

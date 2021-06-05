@@ -1,0 +1,16 @@
+@model CategoryListViewModel
+<ul class="list-group">
+    <li class="list-group-item">
+        <a href="/home/index" style="text-decoration: none; color: black;">
+            Tüm Makaleler
+        </a>
+    </li>
+    @foreach (var category in Model.Categories)
+    {
+        <li class="list-group-item  @(category.Id == Model.CurrentCategory ? "active" :"")">
+            <a href="/home/index?categoryId=@category.Id" style="text-decoration: none; color: black;">
+                @category.Name
+            </a>
+        </li>
+    }
+</ul>

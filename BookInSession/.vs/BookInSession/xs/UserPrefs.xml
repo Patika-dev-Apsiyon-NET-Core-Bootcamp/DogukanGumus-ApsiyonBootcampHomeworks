@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{39305FD7-16C2-4404-9A71-396EE181DD52}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookInSession/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="BookInSession/Controllers/HomeController.cs" Line="19" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookInSession" expanded="True">
+            <Node name="BookInSession" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+              <Node name="Database" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BookInSession PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>

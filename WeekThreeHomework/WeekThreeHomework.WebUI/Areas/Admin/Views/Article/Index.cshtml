@@ -1,0 +1,52 @@
+@model ArticleAdminListViewModel
+
+<table class="table table-hover table-striped">
+    <thead class="thead-dark">
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Title</th>
+        <th scope="col">Content</th>
+        <th scope="col">Author</th>
+        <th scope="col">CategoryId</th>
+        <th scope="col"></th>
+        <th scope="col">
+            <a class="btn btn-success btn-sm" asp-area="Admin" asp-controller="Article" asp-action="Add" >
+                Add A Article
+            </a>
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var article in Model.Articles)
+    {
+        <tr>
+            <td>@article.Id</td>
+            <td>@article.Title</td>
+            <td>@article.Content</td>
+            <td>@article.Author</td>
+            <td>@article.CategoryId</td>
+            <td>
+                <a class="btn btn-primary btn-sm" asp-area="Admin" asp-controller="Article" asp-action="Update" asp-route-id="@article.Id">
+                    Update Article
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-danger btn-sm" asp-area="Admin" asp-controller="Article" asp-action="Delete" asp-route-id="@article.Id">
+                    Delete Article
+                </a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<div class="mt-2">
+    <ul class="pagination">
+        @for (int i = 1; i <= Model.PageCount; i++)
+        {
+           <li class="page-item @(i == Model.CurrentPage ? "active":"")">
+               <a class="page-link" href="/admin/article/index?page=@i&categoryId=@Model.CurrentCategory">@i</a>
+           </li>
+        }
+    </ul>
+</div>

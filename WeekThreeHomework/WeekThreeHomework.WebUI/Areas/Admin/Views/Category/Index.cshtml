@@ -1,0 +1,48 @@
+@model CategoryAdminListViewModel
+
+<table class="table table-hover table-striped">
+    <thead class="thead-dark">
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+        <th scope="col"></th>
+        <th scope="col">
+            <a class="btn btn-success btn-sm" asp-area="Admin" asp-controller="Category" asp-action="Add" >
+                Add A Category
+            </a>
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var category in Model.Categories)
+    {
+        <tr>
+            <td>@category.Id</td>
+            <td>@category.Name</td>
+            <td>@category.Description</td>
+            <td>
+                <a class="btn btn-primary btn-sm" asp-area="Admin" asp-controller="Category" asp-action="Update" asp-route-id="@category.Id">
+                    Update Category
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-danger btn-sm" asp-area="Admin" asp-controller="Category" asp-action="Delete" asp-route-id="@category.Id">
+                    Delete Category
+                </a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<div class="mt-2">
+    <ul class="pagination">
+        @for (int i = 1; i <= Model.PageCount; i++)
+        {
+            <li class="page-item @(i == Model.CurrentPage ? "active":"")">
+                <a class="page-link" href="/admin/category/index?page=@i">@i</a>
+            </li>
+        }
+    </ul>
+</div>
