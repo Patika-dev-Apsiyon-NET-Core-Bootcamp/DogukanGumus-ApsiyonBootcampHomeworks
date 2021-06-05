@@ -10,7 +10,7 @@ Apsiyon .NET Core Bootcamp, eğitmenimiz tarafından Bootcamp süreci boyunca ya
 
 * **Hafta 3** : 
 
-  *  **Ödev 1 - Book In Session **: Session mantığını daha iyi anlamak için, sessionlar içerisinde crud operasyonları yaptık.  Ekstradan sayfalama ve kitapları kategorilerine göre listeleme işlemlerinide ekledim.
+  * **Ödev 1 - Book In Session**: Session mantığını daha iyi anlamak için, sessionlar içerisinde crud operasyonları yaptık.  Ekstradan sayfalama ve kitapları kategorilerine göre listeleme işlemlerinide ekledim.
 
     * **Öğrendiklerim** :  Session ve cookiler, crud operasyonları, mvc pattern hakkında pratik yaptım.
 
