@@ -20,5 +20,10 @@ Apsiyon .NET Core Bootcamp, eğitmenimiz tarafından Bootcamp süreci boyunca ya
 
     * **Öğrendiklerim**: Entity Framework Core kütüphanesi, Data Annotation yapısı ile validation işlemleri, Code First yaklaşımı, Database First yaklaşımı, ekstradan Repository Pattern yapısı hakkında pratik yaparak kendimi geliştirdim.
 
+* **Ödev 3 - FoodAppHomework** : Kayıt olup ardından giriş yaptıktan sonra bir restaurant listesini barındıran authorize bir panele erişim sağladığınız ve bu restaurantların ilişkili menülerini görüntüleyebildiğiniz basit bir web uygulamasıdır. Bu ödevi yaparken, Clean Architecture mimarisi ile genel yapıyı, ASP.NET Idendity Core kütüphanesi aracılığı ilede **authentication** ve **authorization** işlemlerini uyguladım.
 
+    * **Öğrendiklerim**: Clean Architecture mimarisi, Asp.Net Identity Core kütüphanesini öğrendim ve Entity Framework Core kütüphanesiyle daha fazla pratik yaptım.
 
+* **Ödev 4 - FetchApiHomework** (Ekstra): Javascript ile public bir api olan JsonPlaceHolder apisi üzerindeki profil verilerine erişerek bir user interface tasarladım. Apiye ![buradan](https://jsonplaceholder.typicode.com/users) erişebilirsiniz.
+
+    * **Öğrendiklerim**: Javascript fetch api aracılığı ile bir apiye istekte bulunmayı ve cevap olarak dönen verileri kullanmayı öğrendim.
