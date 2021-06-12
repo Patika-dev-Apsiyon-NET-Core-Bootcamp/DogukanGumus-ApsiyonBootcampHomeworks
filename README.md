@@ -24,6 +24,6 @@ Apsiyon .NET Core Bootcamp, eğitmenimiz tarafından Bootcamp süreci boyunca ya
 
     * **Öğrendiklerim**: Clean Architecture mimarisi, Asp.Net Identity Core kütüphanesini öğrendim ve Entity Framework Core kütüphanesiyle daha fazla pratik yaptım.
 
-* **Ödev 4 - FetchApiHomework** (Ekstra): Javascript ile public bir api olan JsonPlaceHolder apisi üzerindeki profil verilerine erişerek bir user interface tasarladım. Apiye ![buradan](https://jsonplaceholder.typicode.com/users) erişebilirsiniz.
+* **Ödev 4 - FetchApiHomework** (Ekstra): Javascript ile public bir api olan JsonPlaceHolder apisi üzerindeki profil verilerine erişerek bir user interface tasarladım. (Api => 'https://jsonplaceholder.typicode.com/users')
 
     * **Öğrendiklerim**: Javascript fetch api aracılığı ile bir apiye istekte bulunmayı ve cevap olarak dönen verileri kullanmayı öğrendim.
