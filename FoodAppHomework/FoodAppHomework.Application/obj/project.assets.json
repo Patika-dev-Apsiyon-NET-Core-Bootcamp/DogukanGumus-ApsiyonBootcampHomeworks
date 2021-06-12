@@ -5998,14 +5998,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Application/FoodAppHomework.Application.csproj",
+      "projectUniqueName": "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Application/FoodAppHomework.Application.csproj",
       "projectName": "FoodAppHomework.Application",
-      "projectPath": "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Application/FoodAppHomework.Application.csproj",
+      "projectPath": "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Application/FoodAppHomework.Application.csproj",
       "packagesPath": "/Users/apple/.nuget/packages/",
-      "outputPath": "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Application/obj/",
+      "outputPath": "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/apple/.config/NuGet/NuGet.Config"
+        "/Users/apple/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -6017,11 +6017,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/FoodAppHomework.Domain.csproj": {
-              "projectPath": "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/FoodAppHomework.Domain.csproj"
+            "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Domain/FoodAppHomework.Domain.csproj": {
+              "projectPath": "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Domain/FoodAppHomework.Domain.csproj"
             },
-            "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Infrastructure.Data/FoodAppHomework.Infrastructure.Data.csproj": {
-              "projectPath": "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Infrastructure.Data/FoodAppHomework.Infrastructure.Data.csproj"
+            "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Infrastructure.Data/FoodAppHomework.Infrastructure.Data.csproj": {
+              "projectPath": "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Infrastructure.Data/FoodAppHomework.Infrastructure.Data.csproj"
             }
           }
         }

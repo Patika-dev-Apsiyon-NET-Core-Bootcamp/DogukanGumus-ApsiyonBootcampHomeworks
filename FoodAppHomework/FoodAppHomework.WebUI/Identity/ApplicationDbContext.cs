@@ -9,5 +9,6 @@ namespace FoodAppHomework.WebUI.Identity
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
+
     }
 }

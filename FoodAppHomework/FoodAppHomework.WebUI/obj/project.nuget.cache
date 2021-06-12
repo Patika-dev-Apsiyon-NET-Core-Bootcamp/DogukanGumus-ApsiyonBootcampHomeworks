@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R0Hg88SOelXbnR2YSA1pn+zan+RLS3w5ZkzQCKoVpNF4KpmdurHFwutLJoGC3Xo1d2nJbM+M265UQxRL/nbOOA==",
+  "dgSpecHash": "2QHflQlzsOEYwdBJcWUUYZAwY1ZRuune8gT7AIpkuEWl0i1p8/6MSvAbbInkib4NPhrFtYBgT7EPWq8YSzaa+g==",
   "success": true,
-  "projectFilePath": "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.WebUI/FoodAppHomework.WebUI.csproj",
+  "projectFilePath": "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.WebUI/FoodAppHomework.WebUI.csproj",
   "expectedPackageFiles": [
     "/Users/apple/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/Users/apple/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

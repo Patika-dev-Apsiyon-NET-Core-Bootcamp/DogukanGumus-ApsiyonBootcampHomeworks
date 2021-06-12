@@ -6090,14 +6090,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.WebUI/FoodAppHomework.WebUI.csproj",
+      "projectUniqueName": "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.WebUI/FoodAppHomework.WebUI.csproj",
       "projectName": "FoodAppHomework.WebUI",
-      "projectPath": "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.WebUI/FoodAppHomework.WebUI.csproj",
+      "projectPath": "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.WebUI/FoodAppHomework.WebUI.csproj",
       "packagesPath": "/Users/apple/.nuget/packages/",
-      "outputPath": "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.WebUI/obj/",
+      "outputPath": "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.WebUI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/apple/.config/NuGet/NuGet.Config"
+        "/Users/apple/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -6109,14 +6109,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Application/FoodAppHomework.Application.csproj": {
-              "projectPath": "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Application/FoodAppHomework.Application.csproj"
+            "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Application/FoodAppHomework.Application.csproj": {
+              "projectPath": "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Application/FoodAppHomework.Application.csproj"
             },
-            "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/FoodAppHomework.Domain.csproj": {
-              "projectPath": "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/FoodAppHomework.Domain.csproj"
+            "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Domain/FoodAppHomework.Domain.csproj": {
+              "projectPath": "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Domain/FoodAppHomework.Domain.csproj"
             },
-            "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Infrastructure.Data/FoodAppHomework.Infrastructure.Data.csproj": {
-              "projectPath": "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Infrastructure.Data/FoodAppHomework.Infrastructure.Data.csproj"
+            "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Infrastructure.Data/FoodAppHomework.Infrastructure.Data.csproj": {
+              "projectPath": "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Infrastructure.Data/FoodAppHomework.Infrastructure.Data.csproj"
             }
           }
         }

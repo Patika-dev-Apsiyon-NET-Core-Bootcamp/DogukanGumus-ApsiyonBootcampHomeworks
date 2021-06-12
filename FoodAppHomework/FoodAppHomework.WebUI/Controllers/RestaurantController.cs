@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using FoodAppHomework.Application.Interfaces;
 using FoodAppHomework.Domain.Models;
+using FoodAppHomework.WebUI.Enums;
 using FoodAppHomework.WebUI.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -12,7 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FoodAppHomework.WebUI.Controllers
 {
-    [Authorize]
+    [AuthorizeByRole(Roles.Admin)]
     public class RestaurantController : Controller
     {
         private readonly IRestaurantService _restaurantService;
@@ -28,6 +29,5 @@ namespace FoodAppHomework.WebUI.Controllers
             var restaurants = await _restaurantService.GetAllAsync();
             return View(_mapper.Map<List<RestaurantDto>>(restaurants));
         }
-
     }
 }

@@ -84,7 +84,7 @@ namespace FoodAppHomework.WebUI
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Restaurant}/{action=Index}/{id?}");
+                    pattern: "{controller=Auth}/{action=Login}/{id?}");
             });
         }
     }

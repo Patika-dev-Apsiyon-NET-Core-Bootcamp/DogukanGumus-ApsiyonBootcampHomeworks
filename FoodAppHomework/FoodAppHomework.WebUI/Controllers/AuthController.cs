@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FoodAppHomework.Domain.Models;
+using FoodAppHomework.WebUI.Enums;
 using FoodAppHomework.WebUI.Identity;
 using FoodAppHomework.WebUI.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -18,10 +19,13 @@ namespace FoodAppHomework.WebUI.Controllers
 
         private SignInManager<User> _signInManager;
 
-        public AuthController(UserManager<User> userManager, SignInManager<User> signInManager)
+        private RoleManager<IdentityRole> _roleManager;
+
+        public AuthController(UserManager<User> userManager, SignInManager<User> signInManager, RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _roleManager = roleManager;
         }
 
         public IActionResult Login(string ReturnUrl = null)
@@ -81,10 +85,19 @@ namespace FoodAppHomework.WebUI.Controllers
             var result = await _userManager.CreateAsync(user, model.Password);
 
             if (result.Succeeded)
-            {        
+            {
+                await _userManager.AddToRoleAsync(user, Roles.Admin);
                 return RedirectToAction("Login", "Auth");
             }
             return View(model);
+        }
+
+        public async Task<IActionResult> CreateRole()
+        {
+            await _roleManager.CreateAsync(new IdentityRole() {
+                Name = Roles.Admin
+            });
+            return View();
         }
 
         public async Task<IActionResult> Logout()

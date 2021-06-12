@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/FoodAppHomework.Domain.csproj": {}
+    "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Domain/FoodAppHomework.Domain.csproj": {}
   },
   "projects": {
-    "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/FoodAppHomework.Domain.csproj": {
+    "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Domain/FoodAppHomework.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/FoodAppHomework.Domain.csproj",
+        "projectUniqueName": "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Domain/FoodAppHomework.Domain.csproj",
         "projectName": "FoodAppHomework.Domain",
-        "projectPath": "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/FoodAppHomework.Domain.csproj",
+        "projectPath": "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Domain/FoodAppHomework.Domain.csproj",
         "packagesPath": "/Users/apple/.nuget/packages/",
-        "outputPath": "/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/obj/",
+        "outputPath": "/Users/apple/Projects/DogukanGumus-ApsiyonBootcampHomeworks/FoodAppHomework/FoodAppHomework.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/apple/.config/NuGet/NuGet.Config"
+          "/Users/apple/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
