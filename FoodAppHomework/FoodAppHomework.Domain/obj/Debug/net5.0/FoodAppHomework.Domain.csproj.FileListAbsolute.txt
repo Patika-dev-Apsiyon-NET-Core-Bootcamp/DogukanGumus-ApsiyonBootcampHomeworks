@@ -1,0 +1,12 @@
+/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/bin/Debug/net5.0/FoodAppHomework.Domain.deps.json
+/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/bin/Debug/net5.0/FoodAppHomework.Domain.dll
+/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/bin/Debug/net5.0/ref/FoodAppHomework.Domain.dll
+/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/bin/Debug/net5.0/FoodAppHomework.Domain.pdb
+/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/obj/Debug/net5.0/FoodAppHomework.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/obj/Debug/net5.0/FoodAppHomework.Domain.AssemblyInfoInputs.cache
+/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/obj/Debug/net5.0/FoodAppHomework.Domain.AssemblyInfo.cs
+/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/obj/Debug/net5.0/FoodAppHomework.Domain.csproj.CoreCompileInputs.cache
+/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/obj/Debug/net5.0/FoodAppHomework.Domain.dll
+/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/obj/Debug/net5.0/ref/FoodAppHomework.Domain.dll
+/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/obj/Debug/net5.0/FoodAppHomework.Domain.pdb
+/Users/apple/Projects/FoodAppHomework/FoodAppHomework.Domain/obj/Debug/net5.0/FoodAppHomework.Domain.csproj.AssemblyReference.cache

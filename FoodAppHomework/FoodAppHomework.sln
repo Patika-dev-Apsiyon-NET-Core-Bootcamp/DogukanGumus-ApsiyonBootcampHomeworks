@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodAppHomework.Domain", "FoodAppHomework.Domain\FoodAppHomework.Domain.csproj", "{89CDD8FE-8E29-41A0-B39A-AD26CA4B533F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodAppHomework.Infrastructure.Data", "FoodAppHomework.Infrastructure.Data\FoodAppHomework.Infrastructure.Data.csproj", "{0A97B364-05C8-4CAC-A4CB-A27D98776850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodAppHomework.Application", "FoodAppHomework.Application\FoodAppHomework.Application.csproj", "{97B46ABC-FC1B-4C4E-A47B-F2647C0D35FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodAppHomework.WebUI", "FoodAppHomework.WebUI\FoodAppHomework.WebUI.csproj", "{5F86144E-529A-4621-93BF-852318D7D597}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89CDD8FE-8E29-41A0-B39A-AD26CA4B533F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CDD8FE-8E29-41A0-B39A-AD26CA4B533F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CDD8FE-8E29-41A0-B39A-AD26CA4B533F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CDD8FE-8E29-41A0-B39A-AD26CA4B533F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A97B364-05C8-4CAC-A4CB-A27D98776850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A97B364-05C8-4CAC-A4CB-A27D98776850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A97B364-05C8-4CAC-A4CB-A27D98776850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A97B364-05C8-4CAC-A4CB-A27D98776850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B46ABC-FC1B-4C4E-A47B-F2647C0D35FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B46ABC-FC1B-4C4E-A47B-F2647C0D35FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B46ABC-FC1B-4C4E-A47B-F2647C0D35FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B46ABC-FC1B-4C4E-A47B-F2647C0D35FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F86144E-529A-4621-93BF-852318D7D597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F86144E-529A-4621-93BF-852318D7D597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F86144E-529A-4621-93BF-852318D7D597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F86144E-529A-4621-93BF-852318D7D597}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EA5A35C-05E7-4DDA-A3DB-DE15ECAE1AA8}
+	EndGlobalSection
+EndGlobal
