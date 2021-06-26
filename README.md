@@ -27,3 +27,7 @@ Apsiyon .NET Core Bootcamp, eğitmenimiz tarafından Bootcamp süreci boyunca ya
 * **Ödev 4 - FetchApiHomework** (Ekstra): Javascript ile public bir api olan JsonPlaceHolder apisi üzerindeki profil verilerine erişerek bir user interface tasarladım. (Api => 'https://jsonplaceholder.typicode.com/users')
 
     * **Öğrendiklerim**: Javascript fetch api aracılığı ile bir apiye istekte bulunmayı ve cevap olarak dönen verileri kullanmayı öğrendim.
+
+* **Ödev 5 - ServiceToConsume** : Token based authentication işlemlerini JWT ile gerçekleştiren tüketilmeye hazır bir servistir.
+
+    * **Öğrendiklerim**: Apiler hakkında daha detaylı pratik yaptım ve JWT ile token based authentication mantığını çok iyi derecede anladım.
