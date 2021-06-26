@@ -1,0 +1,17 @@
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/bin/Debug/net5.0/ServiceToConsume.Service.deps.json
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/bin/Debug/net5.0/ServiceToConsume.Service.dll
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/bin/Debug/net5.0/ref/ServiceToConsume.Service.dll
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/bin/Debug/net5.0/ServiceToConsume.Service.pdb
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/bin/Debug/net5.0/ServiceToConsume.Core.dll
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/bin/Debug/net5.0/SharedLibrary.dll
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/bin/Debug/net5.0/ServiceToConsume.Core.pdb
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/bin/Debug/net5.0/SharedLibrary.pdb
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/obj/Debug/net5.0/ServiceToConsume.Service.csproj.AssemblyReference.cache
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/obj/Debug/net5.0/ServiceToConsume.Service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/obj/Debug/net5.0/ServiceToConsume.Service.AssemblyInfoInputs.cache
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/obj/Debug/net5.0/ServiceToConsume.Service.AssemblyInfo.cs
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/obj/Debug/net5.0/ServiceToConsume.Service.csproj.CoreCompileInputs.cache
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/obj/Debug/net5.0/ServiceToConsume.Service.csproj.CopyComplete
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/obj/Debug/net5.0/ServiceToConsume.Service.dll
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/obj/Debug/net5.0/ref/ServiceToConsume.Service.dll
+/Users/apple/Projects/ServiceToConsume/ServiceToConsume.Service/obj/Debug/net5.0/ServiceToConsume.Service.pdb

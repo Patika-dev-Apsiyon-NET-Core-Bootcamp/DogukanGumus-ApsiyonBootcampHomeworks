@@ -1,0 +1,12 @@
+/Users/apple/Projects/ServiceToConsume/SharedLibrary/bin/Debug/net5.0/SharedLibrary.deps.json
+/Users/apple/Projects/ServiceToConsume/SharedLibrary/bin/Debug/net5.0/SharedLibrary.dll
+/Users/apple/Projects/ServiceToConsume/SharedLibrary/bin/Debug/net5.0/ref/SharedLibrary.dll
+/Users/apple/Projects/ServiceToConsume/SharedLibrary/bin/Debug/net5.0/SharedLibrary.pdb
+/Users/apple/Projects/ServiceToConsume/SharedLibrary/obj/Debug/net5.0/SharedLibrary.csproj.AssemblyReference.cache
+/Users/apple/Projects/ServiceToConsume/SharedLibrary/obj/Debug/net5.0/SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/apple/Projects/ServiceToConsume/SharedLibrary/obj/Debug/net5.0/SharedLibrary.AssemblyInfoInputs.cache
+/Users/apple/Projects/ServiceToConsume/SharedLibrary/obj/Debug/net5.0/SharedLibrary.AssemblyInfo.cs
+/Users/apple/Projects/ServiceToConsume/SharedLibrary/obj/Debug/net5.0/SharedLibrary.csproj.CoreCompileInputs.cache
+/Users/apple/Projects/ServiceToConsume/SharedLibrary/obj/Debug/net5.0/SharedLibrary.dll
+/Users/apple/Projects/ServiceToConsume/SharedLibrary/obj/Debug/net5.0/ref/SharedLibrary.dll
+/Users/apple/Projects/ServiceToConsume/SharedLibrary/obj/Debug/net5.0/SharedLibrary.pdb

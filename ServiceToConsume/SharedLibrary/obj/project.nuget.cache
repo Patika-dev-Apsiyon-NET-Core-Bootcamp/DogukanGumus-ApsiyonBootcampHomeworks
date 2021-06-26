@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "o3uKgmOaiLJEUn5+U13u+lfoQ6Q44aDGerRIGJyJP1o6rMcryko1/YwM7tiz/p4IGZVbBXZab40Lzse0K7O7zQ==",
+  "success": true,
+  "projectFilePath": "/Users/apple/Projects/ServiceToConsume/SharedLibrary/SharedLibrary.csproj",
+  "expectedPackageFiles": [
+    "/Users/apple/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.7/microsoft.aspnetcore.authentication.jwtbearer.5.0.7.nupkg.sha512",
+    "/Users/apple/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.7.1/microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",
+    "/Users/apple/.nuget/packages/microsoft.identitymodel.logging/6.7.1/microsoft.identitymodel.logging.6.7.1.nupkg.sha512",
+    "/Users/apple/.nuget/packages/microsoft.identitymodel.protocols/6.7.1/microsoft.identitymodel.protocols.6.7.1.nupkg.sha512",
+    "/Users/apple/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.7.1/microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
+    "/Users/apple/.nuget/packages/microsoft.identitymodel.tokens/6.7.1/microsoft.identitymodel.tokens.6.7.1.nupkg.sha512",
+    "/Users/apple/.nuget/packages/system.identitymodel.tokens.jwt/6.7.1/system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
+    "/Users/apple/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
